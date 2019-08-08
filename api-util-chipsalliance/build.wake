@@ -1,0 +1,13 @@
+
+def deps =
+  chisel3ScalaModule,
+  apiConfigChipsallianceScalaModule,
+  Nil
+
+global def apiUtilChipsallianceScalaModule =
+  def version = makeScalaVersion 12 8
+  def root = here
+  def name = "api-util-chipsalliance"
+  makeScalaModule name here version
+  | setScalaModuleDeps deps
+  | setScalaModuleScalacOptions ("-Xsource:2.11", Nil)
