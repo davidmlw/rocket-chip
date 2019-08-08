@@ -18,6 +18,7 @@ global def rocketchipScalaModule =
     apiConfigChipsallianceScalaModule,
     apiUtilChipsallianceScalaModule,
     apiDiplomacyChipsallianceScalaModule,
+    libraryTilelinkAdaptersChipsallianceScalaModule,
     ##apiUnittestChipsallianceScalaModule,
     Nil
   makeScalaModuleFromJSON here "rocketchip"
