@@ -5,6 +5,7 @@ def deps =
   apiUtilChipsallianceScalaModule,
   apiDiplomacyChipsallianceScalaModule,
   rocketchipMacros,
+  rocketchipScalaModule,
   Nil
 
 global def libraryTilelinkAdaptersUnittestChipsallianceScalaModule =
