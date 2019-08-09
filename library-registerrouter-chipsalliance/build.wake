@@ -7,10 +7,10 @@ def deps =
   apiDiplomacyChipsallianceScalaModule,
   Nil
 
-global def libraryRegmapperChipsallianceScalaModule =
+global def libraryRegisterrouterChipsallianceScalaModule =
   def version = makeScalaVersion 12 8
   def root = here
-  def name = "library-regmapper-chipsalliance"
+  def name = "library-registerrouter-chipsalliance"
   makeScalaModule name here version
   | setScalaModuleDeps deps
   | setScalaModuleScalacOptions ("-Xsource:2.11", Nil)
