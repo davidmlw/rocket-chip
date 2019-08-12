@@ -17,6 +17,7 @@ global def rocketchipScalaModule =
     hardfloatScalaModule,
     apiConfigChipsallianceScalaModule,
     apiUtilChipsallianceScalaModule,
+    apiUnittestChipsallianceScalaModule,
     apiDiplomacyChipsallianceScalaModule,
     libraryRegisterrouterChipsallianceScalaModule,
     libraryTilelinkAdaptersChipsallianceScalaModule,
