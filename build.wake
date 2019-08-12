@@ -21,6 +21,7 @@ global def rocketchipScalaModule =
     libraryRegisterrouterChipsallianceScalaModule,
     libraryTilelinkAdaptersChipsallianceScalaModule,
     libraryInterruptChipsallianceScalaModule,
+    libraryAMBAChipsallianceScalaModule,
     ##apiUnittestChipsallianceScalaModule,
     Nil
   makeScalaModuleFromJSON here "rocketchip"
