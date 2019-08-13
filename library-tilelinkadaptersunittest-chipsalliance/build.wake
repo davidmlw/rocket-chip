@@ -4,6 +4,7 @@ def deps =
   apiConfigChipsallianceScalaModule,
   apiUtilChipsallianceScalaModule,
   apiDiplomacyChipsallianceScalaModule,
+  libraryTilelinkAdaptersChipsallianceScalaModule,
   rocketchipMacros,
   rocketchipScalaModule,
   Nil
