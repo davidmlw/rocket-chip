@@ -1,15 +1,9 @@
 
-def deps =
-  chisel3ScalaModule,
-  apiConfigChipsallianceScalaModule,
-  apiUtilChipsallianceScalaModule,
-  apiDiplomacyChipsallianceScalaModule,
-  rocketchipMacros,
+def localDeps =
   libraryTilelinkAdaptersChipsallianceScalaModule,
   Nil
-  
 
-
+def deps = baseDeps ++ localDeps
 
 global def libraryBroadcasthubChipsallianceScalaModule =
   def version = makeScalaVersion 12 8

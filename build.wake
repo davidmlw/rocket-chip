@@ -155,3 +155,12 @@ global def runRocketChipGenerator options =
   def omFile      = getFileOpt `.*\.objectModel\.json`
 
   RocketChipGeneratorOutputs dtsFile firrtlFile annoFile romConfFile allOutputs options omFile
+
+
+global def baseDeps = 
+  chisel3ScalaModule,
+  rocketchipMacros,
+  apiConfigChipsallianceScalaModule,
+  apiDiplomacyChipsallianceScalaModule,
+  apiUtilChipsallianceScalaModule,
+  Nil
