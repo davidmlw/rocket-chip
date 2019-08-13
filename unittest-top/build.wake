@@ -7,6 +7,8 @@ def deps =
   apiUtilUnittestChipsallianceScalaModule,
   libraryTilelinkAdaptersUnittestChipsallianceScalaModule,
   apiUnittestChipsallianceScalaModule,
+  libraryAMBATestsChipsallianceScalaModule,
+  libraryAMBAChipsallianceScalaModule,
   Nil
 
 global def unittestTopScalaModule =

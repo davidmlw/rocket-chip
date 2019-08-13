@@ -5,14 +5,17 @@ def deps =
   apiUtilChipsallianceScalaModule,
   apiDiplomacyChipsallianceScalaModule,
   libraryTilelinkAdaptersChipsallianceScalaModule,
-  libraryRegisterrouterChipsallianceScalaModule,
-  libraryInterruptChipsallianceScalaModule,
+  libraryAMBAChipsallianceScalaModule,
+  rocketchipMacros,
+  rocketchipScalaModule,
+  apiUnittestChipsallianceScalaModule,
+  libraryTilelinkAMBAAdaptersChipsallianceScalaModule,
   Nil
 
-global def libraryAMBAChipsallianceScalaModule =
+global def libraryAMBATestsChipsallianceScalaModule =
   def version = makeScalaVersion 12 8
   def root = here
-  def name = "library-amba-chipsalliance"
+  def name = "library-ambatests-chipsalliance"
   makeScalaModule name here version
   | setScalaModuleDeps deps
   | setScalaModuleScalacOptions ("-Xsource:2.11", Nil)
