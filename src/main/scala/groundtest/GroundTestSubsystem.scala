@@ -7,7 +7,7 @@ import freechips.rocketchip.config.{Field, Parameters}
 import freechips.rocketchip.diplomacy._
 import freechips.rocketchip.subsystem._
 import freechips.rocketchip.tilelink._
-
+import freechips.rocketchip.interrupts._
 import scala.math.max
 
 case object TileId extends Field[Int]
