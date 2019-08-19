@@ -4,7 +4,7 @@ package freechips.rocketchip.tilelink
 
 import Chisel._
 import freechips.rocketchip.amba.ahb._
-import freechips.rocketchip.config.Parameters
+import chipsalliance.rocketchip.config.Parameters
 import freechips.rocketchip.diplomacy._
 import freechips.rocketchip.util._
 import scala.math.{min, max}

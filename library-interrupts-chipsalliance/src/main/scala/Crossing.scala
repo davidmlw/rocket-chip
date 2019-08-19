@@ -3,7 +3,7 @@
 package freechips.rocketchip.interrupts
 
 import Chisel._
-import freechips.rocketchip.config.Parameters
+import chipsalliance.rocketchip.config.Parameters
 import freechips.rocketchip.util.{SynchronizerShiftReg, AsyncResetReg}
 import freechips.rocketchip.diplomacy._
 

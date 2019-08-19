@@ -9,7 +9,7 @@ import chisel3.internal.firrtl.Circuit
 import java.io.{File, FileWriter}
 
 import firrtl.annotations.JsonProtocol
-import freechips.rocketchip.config._
+import chipsalliance.rocketchip.config._
 import freechips.rocketchip.diplomacy._
 import freechips.rocketchip.system.{DefaultTestSuites, TestGeneration}
 

@@ -2,7 +2,7 @@
 
 package freechips.rocketchip.interrupts
 
-import freechips.rocketchip.config.Parameters
+import chipsalliance.rocketchip.config.Parameters
 import freechips.rocketchip.diplomacy._
 
 case class IntInwardCrossingHelper(name: String, scope: LazyScope, node: IntInwardNode) {

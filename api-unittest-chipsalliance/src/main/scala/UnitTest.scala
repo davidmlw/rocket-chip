@@ -4,7 +4,7 @@ package freechips.rocketchip.unittest
 
 import Chisel._
 import chisel3.experimental.MultiIOModule
-import freechips.rocketchip.config._
+import chipsalliance.rocketchip.config._
 import freechips.rocketchip.util._
 
 trait UnitTestIO {

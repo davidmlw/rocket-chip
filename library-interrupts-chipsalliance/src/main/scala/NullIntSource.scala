@@ -3,7 +3,7 @@
 package freechips.rocketchip.interrupts
 
 import Chisel._
-import freechips.rocketchip.config.Parameters
+import chipsalliance.rocketchip.config.Parameters
 import freechips.rocketchip.diplomacy._
 
 /** Useful for stubbing out parts of an interrupt interface where certain devices might be missing */
