@@ -1,0 +1,2 @@
+publish preBuildJars = source "{here}/maven2/rocketchip/rocketchip_2.12/1.3.0/rocketchip_2.12-1.3.0.jar", Nil
+publish preBuildMavens = "{here}/maven2", Nil
