@@ -11,6 +11,7 @@
   "rocketchip": {
     "scalaVersion": "2.12.8",
     "dependencies": [
+        "rocketchip::rocketchip:1.3.0",
       "org.json4s::json4s-jackson:3.5.3"
     ]
   },
